@@ -1,0 +1,73 @@
+.form-control {
+    box-shadow: 0px 1.3px 1.3px 0px rgba(0, 0, 0, 0.25);
+    &::placeholder {
+        font-weight: 400;
+        font-style: italic;
+        font-size: 1rem;
+        color: $light-gray;
+    }
+    &:focus {
+        box-shadow: none;
+        border-color: $pink;
+    }
+}
+
+.input-holder {
+    position: relative;
+    width: 100%;
+    &::before {
+        content: " ";
+        display: inline;
+        width: .1rem;
+        height: 1.625rem;
+        background-color: #D9D9D9;
+        border-radius: .188rem;
+        position: absolute;
+        top: .875rem;
+        left: 3rem;
+    }
+    &::after {
+        content: "+48";
+        display: block;
+        font-weight: 500;
+        font-size: 1rem;
+        color: $light-gray;
+        position: absolute;
+        top: .875rem;
+        left: .875rem;
+    }
+}
+
+.form-control.is-valid:focus,
+.was-validated .form-control:valid:focus {
+    box-shadow: none;
+}
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+    background-image: none;
+    padding-right: 1rem;
+}
+
+.form-control.is-valid,
+.was-validated .form-control:valid {
+    border-color: transparent;
+    background-image: none;
+    padding-right: 1rem;
+}
+
+.form-control.is-invalid:focus,
+.was-validated .form-control:invalid:focus {
+    border-color: transparent;
+}
+
+.form-control.is-valid:focus,
+.was-validated .form-control:valid:focus {
+    border-color: transparent;
+}
+
+.form-control.contact.is-invalid,
+.was-validated .form-control.contact:invalid {
+    border: 2px solid #fd5732;
+    padding: 1.063rem 1rem;
+}

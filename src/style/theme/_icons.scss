@@ -1,0 +1,75 @@
+$font-icons-family-name: "IconsFont";
+@font-face {
+	font-family: "IconsFont";
+	src: url('../fonts/IconsFont.eot');
+	src: url('../fonts/IconsFont.eot?#iefix') format('eot'),
+		url('../fonts/IconsFont.woff2') format('woff2'),
+		url('../fonts/IconsFont.woff') format('woff'),
+		url('../fonts/IconsFont.ttf') format('truetype'),
+		url('../fonts/IconsFont.svg#IconsFont') format('svg');
+}
+
+@mixin icon-styles {
+	font-family: "IconsFont";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	// speak: none; // only necessary if not using the private unicode range (firstGlyph option)
+	text-decoration: none;
+	text-transform: none;
+}
+
+%icon {
+	@include icon-styles;
+}
+
+$icon-name-checkbox: "\E001"; 
+$icon-name-minus: "\E002"; 
+$icon-name-plus: "\E003"; 
+$icon-name-prev: "\E004"; 
+
+
+@function icon-char($filename) {
+	$char: "";
+
+	@if $filename == checkbox {
+		$char: "\E001";
+	}
+	@if $filename == minus {
+		$char: "\E002";
+	}
+	@if $filename == plus {
+		$char: "\E003";
+	}
+	@if $filename == prev {
+		$char: "\E004";
+	}
+
+	@return $char;
+}
+
+@mixin icon($filename, $insert: before, $extend: true) {
+	&:#{$insert} {
+		@if $extend {
+			@extend %icon;
+		} @else {
+			@include icon-styles;
+		}
+		content: icon-char($filename);
+	}
+}
+
+.icon-checkbox {
+	@include icon(checkbox);
+}
+.icon-minus {
+	@include icon(minus);
+}
+.icon-plus {
+	@include icon(plus);
+}
+.icon-prev {
+	@include icon(prev);
+}

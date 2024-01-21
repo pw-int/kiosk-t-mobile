@@ -1,0 +1,28 @@
+.btn {
+    --bs-btn-color: #{$white};
+    --bs-btn-hover-color: #{$white};
+    --bs-btn-hover-color: #{$white};
+    --bs-btn-active-color: #{$white};
+    --bs-btn-border-radius: .25rem;
+}
+
+.btn-warning {
+    --bs-btn-hover-color: #{$white};
+    background: $pink!important;
+    border: none;
+    &:focus,
+    &:hover,
+    &:active {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 1px 1px 7px 3px rgba(255, 122, 0, 0.44), inset 0px 4.32166px 21.6083px rgba(0, 0, 0, 0.14);
+        background-color: $pink;
+    }
+}
+
+.btn-link {
+    font-size: .75rem;
+    --bs-link-color: #{$pink};
+    --bs-btn-hover-color: #{$pink};
+    --bs-link-hover-color: #{$pink};
+    --bs-link-color-rgb: #{$pink};
+    --bs-btn-disabled-color: #{$pink};
+}

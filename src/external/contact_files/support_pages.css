@@ -1,0 +1,50 @@
+.terms-and-faq-text {
+    font-size: 12px
+}
+
+.terms-title {
+    color: #444444;
+}
+
+.contact-us-container .button-main {
+    width: 50%;
+    padding: 12px 0;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.content-subscribe-section {
+    margin-top: 5rem;
+}
+
+.faq-container a {
+    text-decoration: underline;
+    color: gray;
+}
+
+.faq-container > a {
+    display: block;
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+    color: gray;
+    text-decoration: none;
+}
+
+.faq-container > a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+small.error {
+    color: red;
+}
+
+.contact-us-container textarea::placeholder,
+.contact-us-container input::placeholder {
+    color: #C0C0C0;
+}
+
+.form-group > ul > li {
+    color: red;
+    margin: 10px;
+}

@@ -1,0 +1,32 @@
+.checkbox .form-check-input[type=checkbox] {
+    border-radius: 0.188em;
+    border-color: $pink;
+}
+
+.checkbox {
+    --bs-form-valid-color: #{$white};
+    .form-check-input {
+        width: 1.25em;
+        height: 1.25em;
+        border-color: $white;
+    }
+}
+
+.form-check-label {
+    line-height: 1.025;
+}
+
+.form-check-input:checked[type=checkbox] {
+    --bs-form-check-bg-image: none;
+    background-image: url('data:image/svg+xml,<%3Fxml version="1.0" encoding="UTF-8" standalone="no"%3F><svg width="10" height="8" viewBox="0 0 10 8" fill="none" version="1.1" id="svg66" sodipodi:docname="checkbox.svg" inkscape:version="1.1 (c4e8f9e, 2021-05-24)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><defs id="defs70" /><sodipodi:namedview id="namedview68" pagecolor="%23ffffff" bordercolor="%23666666" borderopacity="1.0" inkscape:pageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" showgrid="false" inkscape:zoom="32.463863" inkscape:cx="4.0198544" inkscape:cy="4.4819066" inkscape:window-width="1312" inkscape:window-height="795" inkscape:window-x="0" inkscape:window-y="25" inkscape:window-maximized="0" inkscape:current-layer="svg66" /><path style="color:%23000000;fill:%2300b262;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none" d="m 9.1191406,0.92382813 a 0.76451498,0.76451498 0 0 0 -1.078125,0.0703125 L 3.8769531,5.7382812 2.2695313,4.1640625 A 0.76451498,0.76451498 0 0 0 1.1875,4.1738281 0.76451498,0.76451498 0 0 0 1.1992187,5.2558594 l 2.1835938,2.140625 A 0.76459143,0.76459143 0 0 0 4.4941406,7.3535156 L 9.1894531,2.0019531 A 0.76451498,0.76451498 0 0 0 9.1191406,0.92382813 Z" id="path64" /></svg>');
+    background-size: .5rem;
+}
+
+.form-check-input:checked {
+    background-color: $white;
+}
+
+.form-check-input.is-valid~.form-check-label,
+.was-validated .form-check-input:valid~.form-check-label {
+    --bs-form-valid-color: #{$black};
+}
