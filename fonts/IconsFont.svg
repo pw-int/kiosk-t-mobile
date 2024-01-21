@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <font id="IconsFont" horiz-adv-x="2500">
+    <font-face font-family="IconsFont"
+      units-per-em="2000" ascent="2000"
+      descent="0" />
+    <missing-glyph horiz-adv-x="0" />
+    <glyph glyph-name="checkbox"
+      unicode="&#xE001;"
+      horiz-adv-x="2500" d="M433.5950000000001 866.2087500000001L979.6775 331.0487500000001L2153.7549999999997 1668.95125" />
+    <glyph glyph-name="minus"
+      unicode="&#xE002;"
+      horiz-adv-x="2000" d="M1833.3333333333333 1166.6666666666667V833.3333333333333H0V1166.6666666666667H1833.3333333333333z" />
+    <glyph glyph-name="plus"
+      unicode="&#xE003;"
+      horiz-adv-x="2000" d="M778.4083333333333 62.5V1937.5H1096.5916666666667V62.5H778.4083333333333zM0 840.9083333333333V1159.0916666666667H1875V840.9083333333333H0z" />
+    <glyph glyph-name="prev"
+      unicode="&#xE004;"
+      horiz-adv-x="1230.7692307692307" d="M44.3209230769231 999.9223076923078L968.9369230769232 75.3084615384616L1186.6292307692308 292.8469230769231L478.9369230769231 1000.5376923076924L1186.6292307692308 1708.23L968.9369230769232 1924.6915384615384L44.3209230769231 999.9223076923078z" />
+  </font>
+</defs>
+</svg>
