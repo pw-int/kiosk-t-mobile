@@ -1,8 +1,12 @@
-### Dimoco The Kiosk t mobile store Markup project ###
+### TheKiosk - [PL T-Mobile] HTML for DIMOCO ###
 
 Markup project created by figma design.
 
+Figma link [url](https://www.figma.com/file/QYwKAQAwoG7fxvW6XRJj3M/PL-T-Mobile?type=design&node-id=0-1&mode=design&t=E7ujRXfOqgfLskgP-0 "Figma link")
+
 Demo 3g link [url](https://pw-int.github.io/kiosk-t-mobile/ "Demo 3g link")
+
+Demo otp link [url](https://pw-int.github.io/kiosk-t-mobile/otp.html "Demo otp link")
 
 
 ## Project structure ##
