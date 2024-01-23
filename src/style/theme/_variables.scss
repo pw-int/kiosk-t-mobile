@@ -13,9 +13,11 @@ $black: #424242;
 // font sizes
 $font-size-base: .75rem!default;
 $font-sizes: ( 1: 1rem, 2: .938rem, 3: .813rem, 4: .688rem);
+$line-height-base: 1;
 // buttons
 $btn-font-weight: bold!default;
 $btn-font-size: 1rem!default;
+$btn-line-height: 1.5!default;
 $btn-padding-x: 2rem!default;
 $btn-padding-y: .72rem!default;
 $btn-color: $white!default;
