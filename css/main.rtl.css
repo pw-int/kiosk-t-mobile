@@ -12017,12 +12017,15 @@ p {
   flex-direction: column;
   min-height: 100vh;
 }
+.main .brand-img {
+  width: 3.75rem;
+}
 .main .navbar .navbar-nav {
   position: relative;
   z-index: 1;
 }
 .main .navbar .navbar-brand-img {
-  width: 3.25rem;
+  width: 3.75rem;
 }
 .main .banner {
   position: relative;
@@ -12071,6 +12074,28 @@ p {
 }
 .main .banner .banner-check-icon {
   margin-top: auto;
+}
+.main .banner .banner-logo {
+  position: absolute;
+  bottom: 25vh;
+  right: 50%;
+  transform: translate(50%, -50%);
+  z-index: 1;
+}
+@media (min-width: 576px) {
+  .main .banner .banner-logo {
+    top: 20vh;
+  }
+}
+@media (min-width: 768px) {
+  .main .banner .banner-logo {
+    top: 30vh;
+  }
+}
+@media (min-width: 1200px) {
+  .main .banner .banner-logo {
+    top: 25vh;
+  }
 }
 .main .icon-style {
   background-color: #FFFFFF;
