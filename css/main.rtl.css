@@ -12016,6 +12016,10 @@ textarea {
   resize: none;
 }
 
+.mh-200 {
+  min-height: 12.5rem;
+}
+
 p {
   margin-bottom: 0;
 }
@@ -12082,28 +12086,6 @@ p {
 }
 .main .banner .banner-check-icon {
   margin-top: auto;
-}
-.main .banner .banner-logo {
-  position: absolute;
-  bottom: 25vh;
-  right: 50%;
-  transform: translate(50%, -50%);
-  z-index: 1;
-}
-@media (min-width: 576px) {
-  .main .banner .banner-logo {
-    top: 20vh;
-  }
-}
-@media (min-width: 768px) {
-  .main .banner .banner-logo {
-    top: 30vh;
-  }
-}
-@media (min-width: 1200px) {
-  .main .banner .banner-logo {
-    top: 25vh;
-  }
 }
 .main .icon-style {
   background-color: #FFFFFF;
