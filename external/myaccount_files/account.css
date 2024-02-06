@@ -1,0 +1,167 @@
+.account-favorite-title, .account-my-club-title {
+    font-size:15px;
+}
+
+.account-favorite-text {
+    font-size: 12px;
+}
+
+.favorite-poster-container {
+    height: 110px;
+}
+
+.favorite-poster-container .button-main {
+    font-size: 10px;
+}
+
+.favorite-poster-container > img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5px;
+}
+
+.favorite-posters-container .empty-block-text {
+    font-size: 14px;
+}
+
+.button-main {
+    font-size: 12px;
+    padding: 7px;
+}
+
+.account-favorite-hr {
+    margin-top: 50px;
+}
+
+.account-my-club-sub-info {
+    font-size: 12px;
+}
+
+.account-my-club-leave-block {
+    font-size: 10px;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+
+.account-my-club-leave-block span {
+    display: inline-block;
+}
+
+.account-my-club-leave-block a {
+    color: gray;
+    text-decoration: underline;
+}
+
+.account-subscribe-block span {
+    color: rgba(43, 196, 140, 0.8);
+    font-size: 15px;
+}
+
+.account-subscribe-block .button-main {
+    width: 170px;
+    margin: 0 auto;
+    box-shadow: none;
+}
+
+.annotation-items > p{
+    color: #fff !important;
+}
+
+.account-content-subscribe-container {
+    margin-top: 3rem;
+}
+
+#subscribe-button {
+    cursor: pointer;
+}
+
+#subscribe-button > span {
+    color: white !important;
+    font-size: 18px;
+    text-shadow: none !important;
+}
+
+#subscribe-button > span:after {
+    content: none !important;
+}
+
+@media screen and (max-width: 350px) {
+    .favorite-poster-container {
+        height: 90px;
+    }
+
+    .favorite-poster-container .button-main {
+        font-size: 8px;
+        padding: 5px 2px;
+    }
+
+    .account-subscribe-block .button-main {
+        font-size: 12px;
+    }
+
+    .account-subscribe-block .button-main {
+        width: 140px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .account-favorite-title, .account-my-club-title {
+        font-size: 20px;
+    }
+
+    .account-favorite-text {
+        font-size: 17px;
+    }
+
+    .account-favorite-hr {
+        margin-top: 70px;
+    }
+
+    .account-my-club-sub-info {
+        font-size: 17px;
+    }
+
+    .account-my-club-leave-block {
+        font-size: 14px;
+    }
+
+    .button-main {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .favorite-poster-container {
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .account-favorite-title, .account-my-club-title {
+        font-size: 26px;
+    }
+
+    .account-favorite-text {
+        font-size: 21px;
+    }
+
+    .account-favorite-hr {
+        margin-top: 90px;
+    }
+
+    .account-my-club-sub-info {
+        font-size: 21px;
+    }
+
+    .account-my-club-leave-block {
+        font-size: 18px;
+    }
+
+    .button-main {
+        font-size: 18px;
+        padding: 16px;
+    }
+
+    .favorite-poster-container {
+        height: 250px;
+    }
+}
