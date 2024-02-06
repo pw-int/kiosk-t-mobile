@@ -1,0 +1,39 @@
+.cookies-disclaimer {
+    position: fixed;
+    z-index: 9999;
+    bottom: -200px;
+    text-align: center;
+    transition: 1s;
+    opacity: 0;
+    box-shadow: 0px -2px 3px rgba(0, 0, 0, 0.25);
+    left: 0;
+    right: 0;
+}
+
+.cookies-disclaimer-body{
+    background-color: rgba(244,244,244, 0.9);
+    padding: 1rem;
+
+}
+
+.close-btn{
+    float: right;
+    width: 1.5rem;
+}
+
+.close-btn > img{
+    width: 100%;
+}
+
+
+@media screen and (min-width: 570px) and (min-height: 700px) {
+    .cookies-disclaimer {
+        font-size: 2vh;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .cookies-disclaimer {
+        font-size: 2.3vh;
+    }
+}
